@@ -1,0 +1,65 @@
+.contactanos-c{
+    background-color: white;
+    border-bottom: 10px solid #decc96;
+    h1{
+        @include tipografia("Roboto Mono", bold, normal, 46px, black, none, center, none );
+        padding-top: 20px;
+    }
+    p{
+        @include tipografia("Saira Semi Condensed", 350, normal, 22px, black, 10px, center, none);
+        margin-bottom: 10px;
+    }
+}
+
+.formulario{
+    @include displayType(flex, none, none, center);
+    background-color: map-get($colores, colorFuenteH1a );
+    padding: 20px;
+}
+
+.form-border{
+    border-radius: 10px;
+}
+
+.legend-form {
+    @include tipografia("Saira Semi Condensed", bold, normal, 30px, black, none, none, none );
+    padding: 30px;
+    margin-left: 30px;
+}
+
+.label-form{
+    @include tipografia("Saira Semi Condensed", normal, normal, 20px, black, none, none, none);
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.input-form {
+    background-color: map-get($colores, colorForm);
+    border: none;
+    width: 600px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.caja-boton{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    .boton-enviar {
+        @include tipografia("Saira Semi Condensed", 300, normal, 20px, black, none, center, none);
+        padding: 20px;
+        border: none;
+        cursor: pointer;
+        background-color: map-get($colores, colorForm );
+        border-radius: 15px;
+        transition: all 0.25s;
+        margin-bottom: 10px;
+        &:hover{
+            transform: translateY(-2px);
+            box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+        }
+    }
+}
