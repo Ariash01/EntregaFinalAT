@@ -29,7 +29,7 @@
     height: 450px;
     margin: 50px 30px 50px 30px;
     h4{
-        @include tipografia("Roboto Mono", bold, normal, 30px, #0F3D3E, 20px, center, none);
+        @include tipografia("Saira Semi Condensed", bold, normal, 30px, #0F3D3E, 20px, center, none);
     }
     p{
         @include tipografia("Saira Semi Condensed", normal, normal, 20px, #0F3D3E, none, justify, none);
