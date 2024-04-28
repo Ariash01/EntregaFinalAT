@@ -41,7 +41,7 @@ main {
     margin-top: none;
     text-align: center;
     border-bottom: 4px solid #decc96;
-    padding-top: 10px; }
+    padding-top: 20px; }
 
 .contenedor-hamburguesa {
   height: 100%;
@@ -49,7 +49,8 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: none;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 20px; }
 
 .contenedor-resenas {
   height: 100%;
@@ -117,15 +118,15 @@ main {
 .c4 {
   grid-area: c4;
   border-radius: 80%;
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 190px;
   overflow: hidden;
   justify-self: center;
   align-self: center; }
 
 .menu h2 {
   font-family: "Saira Semi Condensed";
-  font-weight: bold;
+  font-weight: 500;
   font-style: normal;
   font-size: 50px;
   color: black;
@@ -163,7 +164,6 @@ main {
 .contenedor-menu {
   height: 100%;
   width: 100%;
-  max-width: 1400px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: none;
@@ -173,7 +173,6 @@ main {
 .contenedor-menu-pollo {
   height: 100%;
   width: 100%;
-  max-width: 1600px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: none;
@@ -184,7 +183,6 @@ main {
 .contenedor-menu-bebidas {
   height: 100%;
   width: 100%;
-  max-width: 1600px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: none;
@@ -325,10 +323,8 @@ main {
 
 .imagen-historia {
   grid-area: imagen-historia;
-  place-items: center;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  justify-self: center;
+  align-self: center; }
   .imagen-historia .imagen-local {
     margin-top: 60px;
     width: 650px;
@@ -585,11 +581,11 @@ footer {
     padding: 15px; }
 
 .card-carne, .card-pollo, .card-bebidas {
-  height: 450px;
+  height: 470px;
   margin: 50px 30px 50px 30px; }
   .card-carne h4, .card-pollo h4, .card-bebidas h4 {
-    font-family: "Roboto Mono";
-    font-weight: bold;
+    font-family: "Saira Semi Condensed";
+    font-weight: 550;
     font-style: normal;
     font-size: 30px;
     color: #0F3D3E;
@@ -609,10 +605,10 @@ footer {
     line-height: 1.5; }
 
 .card-pollo {
-  height: 470px; }
+  height: 490px; }
 
 .card-bebidas {
-  height: 360px;
+  height: 390px;
   width: 250px; }
   .card-bebidas h4 {
     padding: 5px; }
