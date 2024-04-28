@@ -7,13 +7,14 @@ main {
     @include tamano;
     h2{
         @include tipografia("Saira Semi Condensed", normal, normal, 42px, #0F3D3E, none, center, 4px solid #decc96);
-        padding-top: 10px;
+        padding-top: 20px;
     }
 }
 
 .contenedor-hamburguesa {
     @include tamano;
     @include displayType(flex, wrap, none, center);
+    padding-top: 20px;
 }
 
 .contenedor-resenas{

@@ -41,7 +41,7 @@ main {
     margin-top: none;
     text-align: center;
     border-bottom: 4px solid #decc96;
-    padding-top: 10px; }
+    padding-top: 20px; }
 
 .contenedor-hamburguesa {
   height: 100%;
@@ -49,7 +49,8 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: none;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 20px; }
 
 .contenedor-resenas {
   height: 100%;
@@ -391,7 +392,7 @@ main {
   flex-direction: none;
   justify-content: center;
   background-color: white;
-  padding: 20px; }
+  padding: 20px 20px 40px 20px; }
 
 .form-border {
   border-radius: 10px; }
@@ -585,11 +586,11 @@ footer {
     padding: 15px; }
 
 .card-carne, .card-pollo, .card-bebidas {
-  height: 450px;
+  height: 470px;
   margin: 50px 30px 50px 30px; }
   .card-carne h4, .card-pollo h4, .card-bebidas h4 {
-    font-family: "Roboto Mono";
-    font-weight: bold;
+    font-family: "Saira Semi Condensed";
+    font-weight: 600;
     font-style: normal;
     font-size: 30px;
     color: #0F3D3E;
@@ -609,10 +610,10 @@ footer {
     line-height: 1.5; }
 
 .card-pollo {
-  height: 470px; }
+  height: 490px; }
 
 .card-bebidas {
-  height: 360px;
+  height: 380px;
   width: 250px; }
   .card-bebidas h4 {
     padding: 5px; }
@@ -932,15 +933,15 @@ footer {
       font-size: 20px;
       font-weight: 200; }
   .imagen-historia .imagen-local {
-    margin-top: 10px;
+    margin-top: 20px;
     width: 250px;
-    height: 400px; }
+    height: 350px; }
   .mas-nosotros h2 {
     margin-top: 50px; }
   .card {
     width: 100%;
     height: 100%;
-    margin-top: 50px; }
+    margin: 50px 20px 40px 20px; }
     .card p {
       font-size: 20px; }
   .contactanos-c h1 {
