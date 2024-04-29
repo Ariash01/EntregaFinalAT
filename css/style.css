@@ -70,7 +70,10 @@ main {
     padding: 20px;
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-areas: "c4 c3" "c4 c3" "c1 c3" "c2 c3"; }
+    grid-template-areas: "c4 c3"
+ "c4 c3"
+ "c1 c3"
+ "c2 c3"; }
     .contenedor-resenas .card-resena1:hover, .contenedor-resenas .card-resena2:hover {
       transform: translateY(-15px);
       box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
@@ -115,15 +118,15 @@ main {
 .c4 {
   grid-area: c4;
   border-radius: 80%;
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 190px;
   overflow: hidden;
   justify-self: center;
   align-self: center; }
 
 .menu h2 {
   font-family: "Saira Semi Condensed";
-  font-weight: bold;
+  font-weight: 500;
   font-style: normal;
   font-size: 50px;
   color: black;
@@ -161,7 +164,6 @@ main {
 .contenedor-menu {
   height: 100%;
   width: 100%;
-  max-width: 1400px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: none;
@@ -171,7 +173,6 @@ main {
 .contenedor-menu-pollo {
   height: 100%;
   width: 100%;
-  max-width: 1600px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: none;
@@ -182,7 +183,6 @@ main {
 .contenedor-menu-bebidas {
   height: 100%;
   width: 100%;
-  max-width: 1600px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: none;
@@ -227,7 +227,8 @@ main {
   justify-content: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: "div1 div2" "div3 div4";
+  grid-template-areas: "div1 div2"
+ "div3 div4";
   gap: 20px; }
 
 .div1, .div2, .div3, .div4 {
@@ -290,7 +291,8 @@ main {
   justify-content: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: "sub-historia1 imagen-historia" "sub-historia2 imagen-historia";
+  grid-template-areas: "sub-historia1 imagen-historia"
+ "sub-historia2 imagen-historia";
   gap: 20px; }
 
 .sub-historia1, .sub-historia2, .imagen-historia {
@@ -583,7 +585,7 @@ footer {
   margin: 50px 30px 50px 30px; }
   .card-carne h4, .card-pollo h4, .card-bebidas h4 {
     font-family: "Saira Semi Condensed";
-    font-weight: 600;
+    font-weight: 550;
     font-style: normal;
     font-size: 30px;
     color: #0F3D3E;
@@ -606,7 +608,7 @@ footer {
   height: 490px; }
 
 .card-bebidas {
-  height: 380px;
+  height: 390px;
   width: 250px; }
   .card-bebidas h4 {
     padding: 5px; }
@@ -696,7 +698,8 @@ footer {
   .contenedor-historia {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "imagen-historia imagen-historia" "sub-historia1 sub-historia2";
+    grid-template-areas: "imagen-historia imagen-historia"
+ "sub-historia1 sub-historia2";
     gap: 20px; }
   .sub-historia1 h3, .sub-historia2 h3, .imagen-historia h3 {
     text-align: center;
@@ -734,7 +737,10 @@ footer {
         font-size: 34px; }
   .contenedor-resenas .card-resena1, .contenedor-resenas .card-resena2 {
     width: 100%;
-    grid-template-areas: "c4" "c1" "c2" "c3"; }
+    grid-template-areas: "c4"
+ "c1"
+ "c2"
+ "c3"; }
   .c2 {
     text-align: center;
     font-size: 22px; }
@@ -758,7 +764,8 @@ footer {
   .contenedor-historia {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "imagen-historia imagen-historia" "sub-historia1 sub-historia2";
+    grid-template-areas: "imagen-historia imagen-historia"
+ "sub-historia1 sub-historia2";
     gap: 10px; }
   .sub-historia1 h3, .sub-historia2 h3, .imagen-historia h3 {
     font-size: 30px;
@@ -866,7 +873,10 @@ footer {
     padding-right: 20px; }
     .contenedor-resenas .card-resena1, .contenedor-resenas .card-resena2 {
       width: 100%;
-      grid-template-areas: "c4" "c1" "c2" "c3"; }
+      grid-template-areas: "c4"
+ "c1"
+ "c2"
+ "c3"; }
   .c2 {
     text-align: center;
     font-size: 22px; }
@@ -893,13 +903,18 @@ footer {
     padding-top: 20px; }
   .tipos {
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "div1" "div2" "div3" "div4"; }
+    grid-template-areas: "div1"
+ "div2"
+ "div3"
+ "div4"; }
   .contenedor-general h2 {
     font-size: 30px; }
   .contenedor-historia {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "imagen-historia" "sub-historia1" "sub-historia2";
+    grid-template-areas: "imagen-historia"
+ "sub-historia1"
+ "sub-historia2";
     gap: 10px; }
   .sub-historia1, .sub-historia2, .imagen-historia {
     margin: 10px;
