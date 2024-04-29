@@ -11,17 +11,19 @@ Tecnologías usadas:
 Optimización:
 - SEO
 
-Responsive
-- Inicio
-- Menú
-- Ingredientes
+Responsive:
+- Full responsive
 
-Boostrap aplicado:
+Bootstrap aplicado:
 - Carousel en "Ingredientes"
 
 Grid aplicado:
 - Tipos de carnes en "Ingredientes"
 - Quienes somos en "Nosotros"
+- Reseñas
 
-Flebox aplicado:
+Flexbox aplicado:
 - Cards, nav, footer, etc.
+
+Rama adicional:
+- Desarrollo
